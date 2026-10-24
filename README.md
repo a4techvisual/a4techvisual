@@ -3,13 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/a4techvisual">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&width=700&lines=Desenvolvedor+Full-Stack+%F0%9F%9A%80;Analista+de+T.I.+%7C+Suporte+N1%E2%80%93N3+%F0%9F%9B%A0%EF%B8%8F;Designer+Gr%C3%A1fico+%F0%9F%8E%A8;Design+%2B+Tecnologia+%3D+Solu%C3%A7%C3%B5es+reais+%E2%9C%A8" alt="Typing SVG"/>
-  </a>
+  <img src="./assets/typing.svg" width="760" alt="Desenvolvedor Full-Stack · Analista de T.I. · Designer Gráfico"/>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=a4techvisual&style=for-the-badge&color=7c5cff&label=VISITAS" alt="visitas"/>
   <img src="https://img.shields.io/github/followers/a4techvisual?style=for-the-badge&color=00f0ff&labelColor=0b1026&logo=github" alt="seguidores"/>
   <img src="https://img.shields.io/badge/SENAI-Python%20Dev-ff2bd6?style=for-the-badge&labelColor=0b1026" alt="SENAI"/>
 </p>
@@ -72,18 +69,11 @@ Uno **design e tecnologia** para criar soluções funcionais, bonitas e que reso
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=a4techvisual&theme=tokyonight&hide_border=true&background=0B1026&ring=FF2BD6&fire=FF2BD6&currStreakLabel=00F0FF&locale=pt_BR" />
 </p>
-<p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=a4techvisual&bg_color=0b1026&color=c9d1ff&line=00f0ff&point=ff2bd6&area=true&area_color=7c5cff&hide_border=true&custom_title=Atividade%20de%20contribui%C3%A7%C3%B5es" />
-</p>
 
 ## 🐍 Minhas contribuições sendo devoradas
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/a4techvisual/a4techvisual/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/a4techvisual/a4techvisual/output/github-snake.svg" />
-    <img alt="snake" src="https://raw.githubusercontent.com/a4techvisual/a4techvisual/output/github-snake-dark.svg" />
-  </picture>
+  <img alt="snake" src="https://raw.githubusercontent.com/a4techvisual/a4techvisual/output/github-snake-dark.svg" width="100%"/>
 </p>
 
 ## 🤝 Vamos conversar?
