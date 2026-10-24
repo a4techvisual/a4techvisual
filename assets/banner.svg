@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05060f"/><stop offset=".55" stop-color="#0b1026"/><stop offset="1" stop-color="#160a2b"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f0ff"/><stop offset=".5" stop-color="#7c5cff"/><stop offset="1" stop-color="#ff2bd6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0"/><stop offset=".5" stop-color="#00f0ff" stop-opacity=".18"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#7c5cff" stroke-opacity=".12"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1200" height="320" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .mono{font-family:'JetBrains Mono','Fira Code',Consolas,monospace}
+    .sans{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif}
+    .blink{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}
+    .float{animation:f 6s ease-in-out infinite}@keyframes f{50%{transform:translateY(-8px)}}
+    .fade{opacity:0;animation:in 1.2s ease forwards}
+    .d1{animation-delay:.3s}.d2{animation-delay:.9s}.d3{animation-delay:1.5s}
+    @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+    .spin{transform-origin:1010px 160px;animation:r 18s linear infinite}.spin2{transform-origin:1010px 160px;animation:r 11s linear infinite reverse}
+    @keyframes r{to{transform:rotate(360deg)}}
+    .pulse{transform-origin:1010px 160px;animation:p 3s ease-in-out infinite}@keyframes p{50%{transform:scale(1.08);opacity:.7}}
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)">
+      <animate attributeName="y" values="0;40" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <!-- particles -->
+    <g fill="#00f0ff">
+      <circle cx="120" cy="300" r="2"><animate attributeName="cy" values="330;-10" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="380" cy="300" r="1.5" fill="#ff2bd6"><animate attributeName="cy" values="330;-10" dur="9s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" begin="2s" repeatCount="indefinite"/></circle>
+      <circle cx="610" cy="300" r="2" fill="#7c5cff"><animate attributeName="cy" values="330;-10" dur="8s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="760" cy="300" r="1.5"><animate attributeName="cy" values="330;-10" dur="10s" begin="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="10s" begin="4s" repeatCount="indefinite"/></circle>
+      <circle cx="250" cy="300" r="1.2" fill="#ff2bd6"><animate attributeName="cy" values="330;-10" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="3s" repeatCount="indefinite"/></circle>
+    </g>
+    <!-- scanline -->
+    <rect x="0" y="-80" width="1200" height="80" fill="url(#scan)"><animate attributeName="y" values="-80;320" dur="5s" repeatCount="indefinite"/></rect>
+
+    <!-- text -->
+    <text x="70" y="88" class="mono fade" font-size="18" fill="#00f0ff">&gt; ./a4techvisual --init<tspan class="blink">_</tspan></text>
+    <text x="68" y="168" class="sans fade d1" font-size="68" font-weight="800" fill="url(#txt)" filter="url(#glow)">Rômulo Júnior</text>
+    <text x="70" y="214" class="sans fade d2" font-size="24" fill="#c9d1ff">Full-Stack Developer · IT Analyst · Graphic Designer</text>
+    <g class="fade d3">
+      <rect x="70" y="240" width="250" height="34" rx="17" fill="#00f0ff" fill-opacity=".08" stroke="#00f0ff" stroke-opacity=".5"/>
+      <text x="195" y="262" text-anchor="middle" class="mono" font-size="14" fill="#00f0ff">design ✕ tecnologia</text>
+      <rect x="334" y="240" width="190" height="34" rx="17" fill="#ff2bd6" fill-opacity=".08" stroke="#ff2bd6" stroke-opacity=".5"/>
+      <text x="429" y="262" text-anchor="middle" class="mono" font-size="14" fill="#ff2bd6">A4Tech Visual</text>
+    </g>
+
+    <!-- orbital logo -->
+    <g class="float">
+      <circle class="pulse" cx="1010" cy="160" r="64" fill="#7c5cff" fill-opacity=".12"/>
+      <g class="spin"><circle cx="1010" cy="160" r="105" fill="none" stroke="#00f0ff" stroke-opacity=".35" stroke-dasharray="4 10"/><circle cx="1115" cy="160" r="6" fill="#00f0ff" filter="url(#glow)"/></g>
+      <g class="spin2"><circle cx="1010" cy="160" r="82" fill="none" stroke="#ff2bd6" stroke-opacity=".35" stroke-dasharray="60 20"/><circle cx="928" cy="160" r="5" fill="#ff2bd6" filter="url(#glow)"/></g>
+      <text x="1010" y="182" text-anchor="middle" class="sans" font-size="60" font-weight="900" fill="url(#txt)" filter="url(#glow)">A4</text>
+    </g>
+    <rect width="1200" height="320" rx="18" fill="none" stroke="#7c5cff" stroke-opacity=".35"/>
+  </g>
+</svg>

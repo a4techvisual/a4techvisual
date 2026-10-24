@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="330" viewBox="0 0 820 330">
+  <style>
+    .m{font-family:'JetBrains Mono','Fira Code',Consolas,monospace;font-size:15px}
+    .l{opacity:0;animation:show 14s infinite}
+    @keyframes show{0%{opacity:0}3%{opacity:1}92%{opacity:1}100%{opacity:0}}
+    .c{animation:bk 1s steps(1) infinite}@keyframes bk{50%{opacity:0}}
+  </style>
+  <rect width="820" height="330" rx="14" fill="#0b1026" stroke="#7c5cff" stroke-opacity=".45"/>
+  <rect width="820" height="38" rx="14" fill="#141a3a"/><rect y="24" width="820" height="14" fill="#141a3a"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f56"/><circle cx="46" cy="19" r="6" fill="#ffbd2e"/><circle cx="68" cy="19" r="6" fill="#27c93f"/>
+  <text x="410" y="24" text-anchor="middle" class="m" font-size="13" fill="#8b93c9">romulo@a4techvisual: ~</text>
+  <g class="m">
+    <text x="24" y="72" class="l" style="animation-delay:0s" fill="#00f0ff">$ <tspan fill="#e6e9ff">whoami</tspan></text>
+    <text x="24" y="98" class="l" style="animation-delay:.6s" fill="#c9d1ff">Rômulo Delalíbera Júnior — Analista de T.I. &amp; Dev Full-Stack</text>
+    <text x="24" y="132" class="l" style="animation-delay:1.4s" fill="#00f0ff">$ <tspan fill="#e6e9ff">cat stack.json</tspan></text>
+    <text x="24" y="158" class="l" style="animation-delay:2s" fill="#c9d1ff">{ <tspan fill="#ff2bd6">"back"</tspan>: [Node, NestJS, Python, Django, C#],</text>
+    <text x="40" y="182" class="l" style="animation-delay:2.4s" fill="#c9d1ff"><tspan fill="#ff2bd6">"front"</tspan>: [React, HTML, CSS, JavaScript],</text>
+    <text x="40" y="206" class="l" style="animation-delay:2.8s" fill="#c9d1ff"><tspan fill="#ff2bd6">"design"</tspan>: [Illustrator, Photoshop] }</text>
+    <text x="24" y="240" class="l" style="animation-delay:3.6s" fill="#00f0ff">$ <tspan fill="#e6e9ff">./missao --run</tspan></text>
+    <text x="24" y="266" class="l" style="animation-delay:4.2s" fill="#27c93f">✔ unindo design e tecnologia para criar soluções funcionais</text>
+    <text x="24" y="300" class="l" style="animation-delay:5s" fill="#00f0ff">$ <tspan class="c" fill="#e6e9ff">▋</tspan></text>
+  </g>
+</svg>
