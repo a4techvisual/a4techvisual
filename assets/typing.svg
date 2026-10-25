@@ -5,8 +5,8 @@
 <clipPath id="c2"><rect x="254.6" y="0" height="50" width="0"><animate attributeName="width" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.5;0.6;0.7125;0.75;1" values="0;0;280.8;280.8;0;0"/></rect></clipPath>
 <clipPath id="c3"><rect x="122.6" y="0" height="50" width="0"><animate attributeName="width" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.75;0.85;0.9625;1.0;1" values="0;0;544.8;544.8;0;0"/></rect></clipPath>
 </defs>
-<text x="201.8" y="33" clip-path="url(#c0)">Desenvolvedor Full-Stack 🚀</text>
-<text x="142.4" y="33" clip-path="url(#c1)">Analista de T.I. | Suporte N1–N3 🛠️</text>
-<text x="254.6" y="33" clip-path="url(#c2)">Designer Gráfico 🎨</text>
-<text x="122.6" y="33" clip-path="url(#c3)">Design + Tecnologia = Soluções reais ✨</text>
+<text x="201.8" y="33" clip-path="url(#c0)">Desenvolvedor Full-Stack </text>
+<text x="142.4" y="33" clip-path="url(#c1)">Analista de T.I. | Suporte N1–N3 </text>
+<text x="254.6" y="33" clip-path="url(#c2)">Designer Gráfico </text>
+<text x="122.6" y="33" clip-path="url(#c3)">Design + Tecnologia = Soluções reais </text>
 </svg>
