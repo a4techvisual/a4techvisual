@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Rômulo Júnior — Full-Stack Developer · TI Analyst · Graphic Designer"/>
+  <img src="./assets/banner.svg" width="100%" alt="Rômulo Júnior — Full-Stack Developer · T.I Analyst · Graphic Designer"/>
 </p>
 
 <p align="center">
